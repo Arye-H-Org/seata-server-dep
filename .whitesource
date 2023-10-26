@@ -4,7 +4,11 @@
     "configExternalURL": "",
     "projectToken": "",
     "baseBranches": [],
-    "javaVersion": "17"
+    "javaVersion": "17",
+    "skipScanningStage": {
+      "connectivity": ["maven", "npm"],
+      "config": ["yarn"]
+    }
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
